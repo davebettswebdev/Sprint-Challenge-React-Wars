@@ -1,8 +1,36 @@
+@font-face {
+  font-family: 'star_jediregular';
+  src: url('./font/starjedi-webfont.woff2') format('woff2'),
+       url('./font/starjedi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
 .App {
   text-align: center;
+  width: 90%;
+  margin: 0 Auto;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: yellow;
 }
 /* write your parent styles in here for your App.js */
+
+h1 {
+  font-size: 10rem;
+  margin: 20px;
+  letter-spacing: 30px;
+  font-family: 'star_jediregular';
+}
+
+.container {
+  display: flex;
+  justify-content: space;
+}
